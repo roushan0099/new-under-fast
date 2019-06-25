@@ -21,6 +21,7 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 300;
 }
+
 .insta {
     padding-top: 20px;
 }
@@ -1457,6 +1458,11 @@ button:hover {
     color: white;
     text-align: center;
 }
-.yellow-color a {
-color: yellow;
+.terms-flex {
+    display: flex;
+    
+}
+.left-m {
+    margin-left:320%;
+  ;
 }
