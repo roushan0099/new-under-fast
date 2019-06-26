@@ -698,7 +698,7 @@ a.navbar-brand.our_logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .yel {
-    color: yellow;
+    color: yellow !important;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
@@ -1000,6 +1000,9 @@ font-size: 6rem;
     text-align: left;
     font-size: 80%;
 }
+.gdp-content {
+    padding-top: 10%;
+}
 .contact-pad {
     padding-left: 40px;
 }
@@ -1241,6 +1244,7 @@ color: yellow;
 }
 .cursive-up p {
     color: yellow;
+    text-align: center;
 }
 .gdp-logo-p {
     padding-left: 1000px;
@@ -1465,4 +1469,77 @@ button:hover {
 .left-m {
     margin-left:320%;
   ;
+}
+.address-flex {
+    display: flex;
+}
+.area-pin {
+    margin-left: 40%;
+}
+.terms li{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.terms p {
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.terms h4 {
+    text-align: center;
+    font-size: 160%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.terms {
+    padding-top: 100px;
+   
+}
+.terms-head h4 {
+color: yellow;
+text-align: center;
+font-size: 60px;
+padding-top: 150px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tech-gdp p {
+color: white;
+}
+.tech-gdp li {
+    color: white;
+}
+.tech-pad {
+    padding-left: 120px;
+}
+.gdp-head-pad {
+    padding-left: 30px;
+}
+.gdp-logo-pad-1 {
+    padding-left: 80px;
+}
+.whole-gdp {
+    padding-left: 90px;
+}
+.gdp-mob {
+    padding-left: 10px;
+}
+.fv-logo-pad {
+    text-align: center;
+    padding-top: 80px;
+}
+.cursive-up-gdp p {
+    color: yellow;
+    text-align: center;
+    font-size: 100%;
+}
+.fast-curve {
+    padding-top: 60px;
+}
+.p-white {
+    color: white;
+}
+.office-pad {
+    padding-left: 40px;
 }
