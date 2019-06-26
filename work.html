@@ -62,7 +62,7 @@
                                     <ul class="nav navbar-nav navbar-right">
                                         <li><a href="index.html">Home</a></li>
                                      
-                                        <li class="line-height"><a href="work.html"><p>Work With</p>
+                                        <li class="line-height"><a class="yel" href="work.html"><p>Work With</p>
 
                                            <p> Fast Voucher</p></a></li>
                                         
@@ -104,7 +104,7 @@
                                         
                                         <li>Once we receive your query via the filled excel sheet, we will contact you
                                                 between 1-3 working days and take care of everything else.</li>
-                                   <p><b class="r">Terms and Condition Applied</b></p>
+                                   <p><b class="r">T&C’a</b></p>
                                 </div>
                             </div>
                         </div>
@@ -124,11 +124,11 @@
                 <legend></legend>
                 
                 <label for="name">Business Name:</label>
-                <input type="text" id="name" name="name" placeholder="Example:- Splash">
+                <input type="text" id="name" name="name" placeholder="Example:- Splash" required>
                 <label for="name">Business Type:</label>
-                <input type="text" id="name" name="name" placeholder="Example:- Night Club">
+                <input type="text" id="name" name="name" placeholder="Example:- Night Club" required>
                 <label for="title">Select City</label>
-                <select id="title" name="">
+                <select id="title" name="" required>
                  
                   <option value="">Pune</option>          
                   <option>Ahmednagar</option>
@@ -145,35 +145,44 @@
                   <option>Maharashtra-Other</option>
                 </select>    
                 <label for="title">Select Campagin Size</label>
-                <select id="title" name="size">
-                 
-                  <option value="">50000</option>          
-                  <option value="">15000</option>
-                  <option value="">30000</option>  
-                  <option value="">100000</option>
-                 
-                  
-                </select>
-                <label for="title">Business</label>
-                <select id="title" name="busness">
-                 
-                  <option value="">Multi City</option>          
-                  <option value="">Local</option>
-                  <option value="">Multi Location Locally</option>  
-                  <option value="">(MNC)</option>
-                 
-                  
-                </select> 
+            
+        <div class="col-3 col">
+              <input type="checkbox" name="language" value=""> 50000<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="Ma" checked>15000<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="Eng">30000<br>
+              </div>
+              <div class="col-3 col">
+              <input type="checkbox" name="language" value="o" checked>100000<br>
+              </div>
+              Local
+              Multi Location - locally
+              Multi city
+              MNC
+              <label for="title">Business</label>
+            
+              <div class="col-3 col">
+                    <input type="checkbox" name="language" value=""> Local<br>
+                    </div>
+                    <div class="col-3 col">
+                    <input type="checkbox" name="language" value="Ma" checked>Multi Location _ Locally<br>
+                    </div>
+                    <div class="col-3 col">
+                    <input type="checkbox" name="language" value="Eng">Multi City<br>
+                    </div>
+                    <div class="col-3 col">
+                    <input type="checkbox" name="language" value="o" checked>MNC<br>
+               
                 <div class="contact-number">
                     <div class="col-6 col">
                     <label for="phone">Area:</label>
                     <input type="tel" id="phone" name="phone-number">
                     </div> 
-                    <div class="contact-number">
-                        <div class="col-6 col">
-                        <label for="phone">Area Pin:</label>
-                        <input type="tel" id="phone" name="phone-number">
-                        </div>
+                  
+                        
                 
                             <label for="name">Discount:</label>
                             <input type="text" id="name" name="name" placeholder="Example:- 25%">
@@ -191,8 +200,16 @@
                 <label for="phone">Contact No:</label>
                 <input type="tel" id="phone" name="phone-number">
                 </div>
+                <div class="address-flex">
+                    <div>
                 <label for="name">Address:</label>
-                <input type="text" id="name" name="name" placeholder="">
+                <input type="text" id="name" name="name" placeholder="" required>
+                </div>
+                <div class="area-pin">
+                <label for="phone">Area Pin:</label>
+                <input type="tel" id="phone" name="phone-number" required><p class="r" style="padding-left: 60px">(Mandatory)</p>
+                </div>
+                </div>
               <button type="submit" value="SEND MESSAGE" >Submit</button>
               </form>
               </div>
@@ -278,7 +295,7 @@
                                         <p>Email:-<a href="mailto:info@myfastvoucher.com" target="_blank" class="mailid" rel="nofollow" title="Send mail to fast voucher">info@myfastvoucher.com</a> </p>
                                             
     
-                                                    <p><span><a href="">www.fastvoucher.com</a></span></p>
+                                                    <p><span><a href="">www.myfastvoucher.com</a></span></p>
                                     </div>
     
                                 </div>
@@ -332,7 +349,7 @@
                             </div>
                             <div class="terms-flex">
                                     <div>
-                                <p class="right-m"><a href="">Privacy Policy</a></p>
+                                <p class="right-m"><a href="private.html">Privacy Policy</a></p>
                                 </div>
                                 <div>
                                 <p class="left-m"><a href="">Terms_&_Conditions</a></p>
