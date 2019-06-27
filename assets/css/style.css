@@ -33,6 +33,14 @@ PRE LOADER
     color: yellow;
     font-size: 150%;
 }
+.landing-font-change {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    color: yellow;
+    text-align: center;
+}
+.gdp-png {
+    padding-top: 20px;
+}
 .making-discount {
     padding-right: 20px;
     padding-top: 20px;
@@ -611,7 +619,9 @@ input:-ms-input-placeholder {
 	position:relative;
 }
 
-
+.landing-h4 {
+    padding-top: 110px;
+}
 a.navbar-brand.our_logo{
     position: absolute;
     left: 0;
@@ -718,7 +728,7 @@ marquee {
     padding-left: 300px;
 }
 .slider{
-	background:url(bannn.jpg) center center no-repeat;
+	background:url(Artboard\ 1.png) center center no-repeat;
 	background-size:cover;
 }
 .about-slider {
@@ -1443,14 +1453,29 @@ button:hover {
 .contact-pad-top {
     padding-top: 50px;
 }
+.address-flex {
+    display: flex !important;
+}
 @media (max-width:767px) {
 	.grow-flex {
+        display: block !important;
+    }
+   
+    .address-flex {
         display: block;
     }
-    .menu-scroll a.navbar-brand.our_logo {
+}
+
+@media (min-width:200px and max-width: 450px) {
+	.grow-flex {
+        display: block !important;
+    }
    
+    .address-flex {
+        display: block;
     }
 }
+
 .black {
     color: #000;
     text-align: center;
@@ -1470,11 +1495,9 @@ button:hover {
     margin-left:320%;
   ;
 }
-.address-flex {
-    display: flex;
-}
+
 .area-pin {
-    margin-left: 40%;
+    margin-left: 20%;
 }
 .terms li{
     color: white;
