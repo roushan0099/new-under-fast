@@ -728,7 +728,7 @@ marquee {
     padding-left: 300px;
 }
 .slider{
-	background:url(ArtBoard2.png) center center no-repeat;
+	background:url(bannew1.png) center center no-repeat;
 	background-size:cover;
 }
 .about-slider {
@@ -991,7 +991,7 @@ font-size: 6rem;
 }
 .gdp {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .gdp-flex {
     display: flex;
@@ -1010,8 +1010,8 @@ font-size: 6rem;
     text-align: left;
     font-size: 80%;
 }
-.gdp-content {
-    padding-top: 10%;
+.gdp-content p {
+   color: white 
 }
 .contact-pad {
     padding-left: 40px;
@@ -1601,4 +1601,35 @@ color: white;
 }
 #black-dot {
     color: #000 !important;
+}
+.instag {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+}
+.down-footer {
+    text-align: center !important;
+    background-color: #000;
+    background-image: none;
+}
+.terms-flex {
+    text-align: center;
+}
+.left {
+    padding-left: 180%;
+    
+}
+.right {
+    padding-left: 112px;
+}
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+.gdp-new-align {
+    text-align: left;
+    padding-top: 40px;
+
+}
+.gdp-new-align p {
+    color: white;
 }
