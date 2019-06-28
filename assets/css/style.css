@@ -230,7 +230,7 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 a:hover {
-    color: yellow;
+    color:  rgb(83, 130, 231);
 }
 p:last-child {
     margin-bottom: 0px;
@@ -1368,6 +1368,10 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 600px) {
   .prev, .next,.text {font-size: 11px}
+  body {
+      background-image: none;
+      background-color: #000;
+  }
 }
 form {
 	padding: .100em 3em 3em;
@@ -1463,12 +1467,28 @@ button:hover {
    
     .address-flex {
         display: block;
+
     }
+    a.navbar-brand.our_logo{
+        position: absolute;
+        left: 0;
+        top: -50px;
+        width: 25%;
+        padding-top: 40px;
+    }
+   body {
+       background-image: none;
+       background-color: #000;
+   }
 }
 
 @media (min-width:200px and max-width: 450px) {
 	.grow-flex {
         display: block !important;
+    }
+    body {
+        background-image: none;
+        background-color: #000;
     }
    
     .address-flex {
@@ -1565,4 +1585,20 @@ color: white;
 }
 .office-pad {
     padding-left: 40px;
+}
+.logo-validity  {
+    color: rgb(59, 58, 58);
+}
+.logo-validity a:hover {
+    color: rgb(59, 58, 58) !important;
+}
+.dot-big {
+    font-size: 100px;
+    color: rgb(156, 156, 156);
+}
+.black {
+    color: #000;
+}
+#black-dot {
+    color: #000 !important;
 }
