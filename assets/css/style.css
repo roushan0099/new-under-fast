@@ -230,7 +230,7 @@ p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 a:hover {
-    color:  rgb(83, 130, 231);
+    color: yellow;
 }
 p:last-child {
     margin-bottom: 0px;
